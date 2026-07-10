@@ -35,11 +35,7 @@ public final class ReservationEvent {
 
     @Override
     public String toString() {
-        return "ReservationEvent{" +
-                "id='" + id + '\'' +
-                ", passengerName='" + passengerName + '\'' +
-                ", price=" + price +
-                ", emails=" + emails +
-                '}';
+        return "ReservationEvent{" + "id='" + id + '\'' + ", passengerName='" + passengerName + '\'' + ", price="
+                + price + ", emails=" + emails + '}';
     }
 }
